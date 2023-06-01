@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header-content-wrapper {
+  width: calc(100vw + 100px);
+  transform: translateX(-50px);
+}
