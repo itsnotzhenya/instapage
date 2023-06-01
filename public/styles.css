@@ -575,6 +575,22 @@ video {
   margin-top: 0px;
 }
 
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-2\.5 {
+  margin-top: 0.625rem;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
 .block {
   display: block;
 }
@@ -619,6 +635,14 @@ video {
   width: 130px;
 }
 
+.max-w-\[595px\] {
+  max-width: 595px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -653,6 +677,11 @@ video {
   background-color: rgb(247 251 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#ff8b67\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 139 103 / var(--tw-bg-opacity));
+}
+
 .fill-current {
   fill: currentColor;
 }
@@ -676,6 +705,11 @@ video {
   padding-right: 24px;
 }
 
+.py-\[24px\] {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -690,6 +724,14 @@ video {
 
 .pt-\[90px\] {
   padding-top: 90px;
+}
+
+.pt-\[40px\] {
+  padding-top: 40px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-montserrat {
@@ -714,6 +756,22 @@ video {
   font-weight: 500;
 }
 
+.leading-\[140\%\] {
+  line-height: 140%;
+}
+
+.leading-\[150\%\] {
+  line-height: 150%;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
@@ -722,6 +780,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .header-content-wrapper {
@@ -799,6 +862,10 @@ video {
     margin-bottom: -20px;
   }
 
+  .md\:mt-5 {
+    margin-top: 1.25rem;
+  }
+
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -851,6 +918,10 @@ video {
     margin-left: 6rem;
   }
 
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -861,6 +932,22 @@ video {
 
   .lg\:w-\[450px\] {
     width: 450px;
+  }
+
+  .lg\:max-w-\[400px\] {
+    max-width: 400px;
+  }
+
+  .lg\:max-w-full {
+    max-width: 100%;
+  }
+
+  .lg\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 
   .lg\:items-center {
@@ -880,12 +967,21 @@ video {
     padding-right: 50px;
   }
 
+  .lg\:px-\[45px\] {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
   .lg\:pb-\[50px\] {
     padding-bottom: 50px;
   }
 
   .lg\:pt-\[70px\] {
     padding-top: 70px;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 }
 
