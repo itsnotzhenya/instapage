@@ -5,6 +5,22 @@
 .header-content-wrapper {
   width: calc(100vw + 100px);
   transform: translateX(-50px);
+  background-image: url(https://storage.googleapis.com/website-development/uploads/2022/10/Frame-81.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+@media (max-width: 1280px) {
+  .header-content-wrapper {
+    background-image: none;
+  }
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: all .5s ease-in-out;
+  transition-property: opacity;
 }
 
 li {
