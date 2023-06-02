@@ -6,3 +6,17 @@
   width: calc(100vw + 100px);
   transform: translateX(-50px);
 }
+
+li {
+  position: relative;
+}
+
+li::after {
+  content: "\2022";
+  position: absolute;
+  top: -1;
+  left: 0;
+  color: #45536b;
+  font-size: 18px;
+  font-weight: 700;
+}

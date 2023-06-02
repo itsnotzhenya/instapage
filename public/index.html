@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- TODO: Lazyloading for img and video -->
   <!--Main Nav-->
     <nav class="absolute z-50 t-0 w-full">
       <header>
@@ -116,7 +117,7 @@
     <!---Cards container-->
     <div class="px-[24px] my-0 mx-auto md:grid md:grid-cols-2 gap-[30px] lg:grid-cols-3 lg:px-[45px] xl:w-[1170px] xl:p-0">
       <div class="bg-white rounded-lg shadow-md max-w-[370px] mx-auto mb-[60px] md:mb-[30px]">
-        <div class="p-[30px] h-full lg:p-[50px]">
+        <div class="p-[30px] h-full xl:p-[50px]">
           <header class="flex items-center w-full mb-[20px]">
             <div class="flex items-center justify-center w-[50px] h-[50px] shrink-0">
               <img src="https://storage.googleapis.com/website-production/uploads/2022/12/Landing-pages.svg" alt="Landing pages">
@@ -129,7 +130,7 @@
         </div>
       </div>
       <div class="bg-white rounded-lg shadow-md max-w-[370px] mx-auto mb-[60px] md:mb-[30px]">
-        <div class="p-[30px] h-full lg:p-[50px]">
+        <div class="p-[30px] h-full xl:p-[50px]">
           <header class="flex items-center w-full mb-[20px]">
             <div class="flex items-center justify-center w-[50px] h-[50px] shrink-0">
               <img src="https://storage.googleapis.com/website-production/uploads/2022/12/Personalization.svg" alt="Personalization">
@@ -142,7 +143,7 @@
         </div>
       </div>
       <div class="bg-white rounded-lg shadow-md max-w-[370px] mx-auto mb-[60px] md:mb-[30px]">
-        <div class="p-[30px] h-full lg:p-[50px]">
+        <div class="p-[30px] h-full xl:p-[50px]">
           <header class="flex items-center w-full mb-[20px]">
             <div class="flex items-center justify-center w-[50px] h-[50px] shrink-0">
               <img src="https://storage.googleapis.com/website-production/uploads/2022/12/Experimentation.svg" alt="Experimentation">
@@ -155,7 +156,7 @@
         </div>
       </div>
       <div class="bg-white rounded-lg shadow-md max-w-[370px] mx-auto mb-[60px] md:mb-[30px]">
-        <div class="p-[30px] h-full lg:p-[50px]">
+        <div class="p-[30px] h-full xl:p-[50px]">
           <header class="flex items-center w-full mb-[20px]">
             <div class="flex items-center justify-center w-[50px] h-[50px] shrink-0">
               <img src="https://storage.googleapis.com/website-production/uploads/2022/12/AdMap.svg" alt="AdMap">
@@ -168,7 +169,7 @@
         </div>
       </div>
       <div class="bg-white rounded-lg shadow-md max-w-[370px] mx-auto mb-[60px] md:mb-[30px]">
-        <div class="p-[30px] h-full lg:p-[50px]">
+        <div class="p-[30px] h-full xl:p-[50px]">
           <header class="flex items-center w-full mb-[20px]">
             <div class="flex items-center justify-center w-[50px] h-[50px] shrink-0">
               <img src="https://storage.googleapis.com/website-production/uploads/2022/12/Collaboration-1.svg" alt="Collaboration">
@@ -181,7 +182,7 @@
         </div>
       </div>
       <div class="bg-white rounded-lg shadow-md max-w-[370px] mx-auto mb-[60px] md:mb-[30px]">
-        <div class="p-[30px] h-full lg:p-[50px]">
+        <div class="p-[30px] h-full xl:p-[50px]">
           <header class="flex items-center w-full mb-[20px]">
             <div class="flex items-center justify-center w-[50px] h-[50px] shrink-0">
               <img src="https://storage.googleapis.com/website-production/uploads/2022/12/Page-speed.svg" alt="Page speed">
@@ -195,8 +196,37 @@
       </div>
     </div>
     <!--End Cards container-->
-    </section>
+  </section>
   <!--End Pros section-->
+  <!--Awards Section-->
+  <section class="overflow-hidden bg-[#e6f0f9]">
+    <div class="px-[24px] my-0 mx-auto lg:px-[45px] xl:w-[1170px] xl:p-0">
+      <div class="py-[50px] mx-auto mt-[40px] mb-[60px] max-w-[595px] lg:flex lg:items-center lg:max-w-none lg:my-[20px]">
+        <div class="lg:h-[480px] lg:flex-1 lg:order-2 xl:h-[425px]">
+          <img src="https://storage.googleapis.com/website-production/uploads/2023/04/Frame-100297.png" alt="Spring G2">
+        </div>
+        <div class="text-left pt-[40px] md:pt-[50px] lg:pt-0 lg:max-w-[520px] lg:flex-1">
+          <div class="lg:max-w-[400px] lg:mr-auto lg:ml-0 xl:max-w-[470px]">
+            <h2 class="text-[#1e304e] font-montserrat font-medium text-2xl leading-[140%] tracking-wide md:text-[32px]">Instapage leads the way in the G2 Spring Awards</h2>
+            <ul class="list-none font-montserrat text-sm text-[#45536b] leading-[150%] mt-[20px] md:text-lg">
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">Users Love Us</li>
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">Leader</li>
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">Most Implementable: Enterprise</li>
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">Highest User Adoption: Enterprise</li>
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">Fastest Implementation: Enterprise</li>
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">Leader: Mid-Market</li>
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">Leader: Small Business</li>
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">Leader: Europe</li>
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">Momentum Leader</li>
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">High Performer: Enterprise</li>
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">High Performer: Mid-Market</li>
+              <li class="text-[#050d1a] ml-[10px] pl-[20px] pb-[5px] text-left">High Performer: Asia Pacific</li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--End Awards Section-->
   <script type="text/javascript">
     function openMenu(e) {
       const menu = document.getElementsByClassName('mobile-menu')[0]
